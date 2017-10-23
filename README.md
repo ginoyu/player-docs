@@ -1,3 +1,10 @@
-# My Awesome Book
+# ROOBO播放服务
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+ROOBO播放服务提供统一的资源获取、展示、播放、状态同步等一系列功能的；为第三方设备或者APP提供了通用的资源管理，播放控制，状态同步等通用解决方案，同时也为第三方打通了VUI和传统App UI。
+
+
+
+
+
+
+
