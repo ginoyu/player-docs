@@ -18,7 +18,7 @@ HTTP接口
 
 ```
 {
-  "appId":"28",
+  "appId":"EvXLUN3xtyON74KY",
   "clientId":"10110000002003C7",
   "token" : "786203ce01256d1d590e2d0a1c1f11b62076",
   "resId" : "music:2811790",
