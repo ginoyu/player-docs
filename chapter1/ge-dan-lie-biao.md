@@ -13,7 +13,6 @@
 ```
 {
     "appId":"QaNCagiMWCdGbGSj",
-    "production":"pudding1s",
     "token" : "786203ce01256d1d590e2d0a1c1f11b62076",
     "clientId" : "10110000002003C7",
     "moduleId" : "189",
@@ -25,7 +24,6 @@
 
 | appId | string | 必选 | 应用ID |
 | :--- | :--- | :--- | :--- |
-| production | string | 可选 | 产品类型 |
 | token | string | 必选 | TOKEN |
 | clientId | string | 可选 | 用户ID，用于返回收藏相关信息 |
 | moduleId | string | 可选 | 模块ID（当获取模块下所有歌单时，传该参数） |
