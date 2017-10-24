@@ -17,7 +17,6 @@
 ```
 {
   "appId" : "EvXLUN3xtyON74KY",
-  "production" : "storybox",
   "clientId" : "1015000000101064",
   "token":"786203ce01256d1d590e2d0a1c1f11b62076",
   "from" : "0",
@@ -32,7 +31,6 @@
 | 参数 | 类型 | 可选 | 意义 |
 | :--- | :--- | :--- | :--- |
 | appId | string | 必填 | 应用ID |
-| production | string | 必填 | 产品类型 |
 | token | string | 必填 | 设备TOKEN或者appId token |
 | clientId | string | 必填 | 播放主体ID：比如故事机或者布丁的SN |
 | userId | string | 可选 | 触发播放的客户端ID，用户点播就是用户ID，语音和设备交互就是设备ID |
@@ -105,7 +103,7 @@
 | data.playrecords\[\].domainId | int | 场景ID（AI场景，暂时可忽略） |
 | data.playrecords\[\].length | int | 资源长度（因为资源文件的变更，可能和实际资源长度不一致，这里只用于和currentLength判定代表是否播放完成） |
 | data.playrecords\[\].time | int | 最后更新时间（UNIX时间戳） |
-| data.playrecords\[\].resource | object | 资源详情，参考：  |
+| data.playrecords\[\].resource | object | 资源详情，参考： |
 
 
 
