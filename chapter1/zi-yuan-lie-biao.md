@@ -13,7 +13,6 @@
 ```
 {
     "appId":"QaNCagiMWCdGbGSj",
-    "production":"pudding1s",
     "token" : "786203ce01256d1d590e2d0a1c1f11b62076",
     "clientId" : "10110000002003C7",
     "albumId" : "100",
@@ -27,7 +26,6 @@
 
 | token | string | 必选 | TOKEN |
 | :--- | :--- | :--- | :--- |
-| production | string | 可选 | 产品类型 |
 | clientId | string | 可选 | 用户ID，用于返回收藏相关信息 |
 | appId | string | 必选 | 应用ID |
 | albumId | string | 必选 | 歌单ID |

@@ -1,17 +1,16 @@
 **单个资源详情**
 
-接口： /resources/detail
+接口： /resources/info
 
 方法： POST
 
-示例： [http://player.roobo.net/resources/detail](http://player.roobo.net/resources/detail)
+示例：[http://player.roobo.net/resources/info](http://player.roobo.net/resources/info)
 
 请求参数：
 
 ```
 {
     "appId":"QaNCagiMWCdGbGSj",
-    "production":"pudding1s",
     "token":"786203ce01256d1d590e2d0a1c1f11b62076",
     "clientId":"3000020000000020",
     "resId":"aires:485965",
@@ -24,7 +23,6 @@
 | 参数 | 类型 | 可选 | 意义 |
 | :--- | :--- | :--- | :--- |
 | appId | string |  | 应用ID |
-| production | string | 是 | 产品线 |
 | token | string |  | 产品TOKEN |
 | clientId | string | 是 | 播放主体ID（可以用来查询绑定相关的收藏或者其他信息） |
 | resId | string |  | 需要查询的资源ID |
