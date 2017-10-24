@@ -13,7 +13,6 @@
 ```
 {
   "appId" : "EvXLUN3xtyON74KY",
-  "production" : "pudding1s",
   "token" : "786203ce01256d1d590e2d0a1c1f11b62076",
   "clientId" : "1011000000201457",
   "userId" : "ps:5724e37aa1bfd42510b52256ec620b17",
@@ -27,7 +26,6 @@
 | 参数 | 类型 | 可选 | 意义 |
 | :--- | :--- | :--- | :--- |
 | appId | string |  | 应用ID |
-| production | string | 是 | 产品线名称 |
 | token | string |  | 设备TOKEN或者应用TOKEN |
 | clientId | string |  | 歌单关联的客户端ID（用户ID或者设备ID） |
 | userId | string | 是 | 当歌单关联到设备上时，userId标识是哪个用户创建 |
