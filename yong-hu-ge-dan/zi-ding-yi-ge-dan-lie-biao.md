@@ -1,10 +1,10 @@
 **查询自定义歌单列表**
 
-接口： /user-album/list
+接口： /user-album/list
 
 方法： POST
 
-示例： http://player.roobo.net/user-album[/](http://player.roobo.net/user/new-album)list
+示例： [http://player.roobo.net/user-album\[/\]\(http://player.roobo.net/user/new-album\)list](http://player.roobo.net/user-album[/]%28http://player.roobo.net/user/new-album%29list)
 
 请求参数
 
@@ -12,7 +12,7 @@
 {
   "appId" : "EvXLUN3xtyON74KY",
   "production" : "pudding1s",
-  "token" : "o6aSmwOHw4i1gxL_pQGydDOPoaHk",
+  "token" : "786203ce01256d1d590e2d0a1c1f11b62076",
   "clientId" : "1011000000201457",
   "userId" : "ps:5724e37aa1bfd42510b52256ec620b17",
   "parentId" : ""
@@ -29,8 +29,6 @@
 | clientId | string |  | 歌单关联的客户端ID（用户ID或者设备ID） |
 | userId | string | 是 | 当歌单关联到设备上时，userId标识是哪个用户创建 |
 | parentId | string | 是 | 父歌单ID，当不填或者为空时，表示没有父歌单ID |
-
-
 
 返回值
 
@@ -57,8 +55,6 @@
 ```
 
 其中返回值意义如下
-
-
 
 | 参数 | 类型 | 意义 |
 | :--- | :--- | :--- |

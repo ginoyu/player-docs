@@ -2,23 +2,19 @@
 
 用户可以根据指定的歌单ID复制一份新的歌单
 
-
-
-接口： /user-album/init
+接口： /user-album/init
 
 方法： POST
 
-示例： [http://player.roobo.net/user-album/init](http://player.roobo.net/user-album/init)
+示例： [http://player.roobo.net/user-album/init](http://player.roobo.net/user-album/init)
 
 请求参数
-
-
 
 ```
 {
   "appId" : "EvXLUN3xtyON74KY",
   "production" : "pudding1s",
-  "token" : "o6aSmwOHw4i1gxL_pQGydDOPoaHk",
+  "token" : "786203ce01256d1d590e2d0a1c1f11b62076",
   "clientId" : "1011000000201457",
   "userId" : "ps:5724e37aa1bfd42510b52256ec620b17",
   "newAlbum" : true,
