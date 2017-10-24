@@ -1,7 +1,7 @@
 # Summary
 
 * [简介](README.md)
-* [资源CMS](chapter1.md)
+* [首页CMS](chapter1.md)
   * [模块列表](chapter1/zi-yuan-xiang-qing.md)
   * [歌单列表](chapter1/ge-dan-lie-biao.md)
   * [资源列表](chapter1/zi-yuan-lie-biao.md)
