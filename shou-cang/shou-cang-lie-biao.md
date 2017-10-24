@@ -1,7 +1,5 @@
 **获取收藏列表**
 
-
-
 接口： /favorite/list
 
 方法： POST
@@ -16,7 +14,6 @@
     "token" : "786203ce01256d1d590e2d0a1c1f11b62076",
     "userId":"ps:5724e37aa1bfd42510b52256ec620b17",
     "clientId":"1011000000101005",
-    "production":"pudding1s",
     "ranges" : [ "resource", "album" ],
     "count" : 20,
     "page" : 1
@@ -30,12 +27,9 @@
 | appId | string |  | 应用ID |
 | userId | string | 是 | 过滤指定用户ID收藏的 |
 | clientId | string |  | 设备ID |
-| production | string | 是 | 产品线 |
 | ranges | string | 是 | 查询范围： resource代表查询资源收藏；album查询专辑收藏默认代表只查询资源收藏 |
 | page | int | 是 | 分页页面，默认为1 |
 | count | int | 是 | 每页数量，默认为20 |
-
-
 
 返回值
 
