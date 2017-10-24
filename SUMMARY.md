@@ -27,4 +27,5 @@
   * [播放资源](chapter1/roobotong-yong-bo-fang-api/bo-fang-zi-yuan.md)
   * [下一首](chapter1/roobotong-yong-bo-fang-api/xia-yi-shou.md)
   * [上一首](chapter1/roobotong-yong-bo-fang-api/shang-yi-shou.md)
+  * [MQTT上报播放状态&进度](chapter1/roobotong-yong-bo-fang-api/mqttshang-bao-bo-fang-zhuang-600126-jin-du.md)
 
