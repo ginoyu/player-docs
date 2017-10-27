@@ -44,55 +44,36 @@
     "msg":"success",
     "data":{
         "total":1,
-        "list":[
+        "categories":[
             {
-                "resId":"aires:485965",
-                "type":1,
-                "name":"雨后",
-                "favoriteId":"1000",
-                "length":259,
-                "content" : "http://dwn.roo.bo/voices/songs/koudai/be9c171e1fbba48d3bd1f42b5d19b6f9.mp3",
-                "artist":"歌手",
-                "playUrls":{
-                    "normal":{
-                        "size":4072551,
-                        "url":"http://dwn.roo.bo/voices/songs/koudai/be9c171e1fbba48d3bd1f42b5d19b6f9.mp3"
-                    }
-                }
+                "id":"9484",
+                "favoriteId" : "1000",
+                "name":"不一样的卡梅拉",
+                "description":"",
+                "total":17,
+                "imgThumb":"http://media.roobo.net/appimg/20161114_67fe4ba23ba80b325d4b388838d31853.png",
+                "imgLarge":"http://media.roobo.net/appimg/20161117_fea417c257b8b2826f801d41a3a48931.jpg",
+                "type":"album",
+                "tags" : ["new"]
             }
-        ],
-        "album":{
-            "id":"100",
-            "name":"测试",
-            "imgLarge":"http://i.gtimg.cn/music/photo/mid_album_300/X/X/004G5J350sVsXX.jpg",
-            "imgSmall":"http://i.gtimg.cn/music/photo/mid_album_300/X/X/004G5J350sVsXX.jpg"
-        }
+        ]
     }
 }
 ```
 
 其中返回值意义如下
 
-| 返回值 | 类型 | 意义 |
+| data.total | int | 模块或者歌单下所有的（子）歌单数量 |
 | :--- | :--- | :--- |
-| data.total | int | 资源总数 |
-| data.list\[\].resId | string | `收藏ID，如果没有收藏为0` |
-| data.list\[\].type | int | 内容类型： 0-文本， 1-音频URL |
-| data.list\[\].name | string | 资源名称 |
-| data.list\[\].score | int | 资源评分 |
-| data.list\[\].favoriteId | string | 收藏ID（当接口中传了用户ID时，此字段有效，否则返回空字符串） |
-| data.list\[\].artist | string | 歌手信息 |
-| data.list\[\].length | int | 资源时长 |
-| data.list\[\].content | string | 默认播放连接/内容 |
-| data.list\[\].artist | string | 歌手 |
-| data.list\[\].playUrls\[\].normal.size | int | 普通版本文件大小 |
-| data.list\[\].playUrls\[\].normal.url | string | 普通版本播放连接 |
-| data.album.id | string | 歌单ID |
-| data.album.name | string | 歌单名称 |
-| data.album.imgLarge | string | 专辑的大封面 |
-| data.album.imgSmall | string | 专辑的小封面 |
-
-
+| data.categories\[\].id | int | 歌单ID |
+| data.categories\[\].favoriteId | string | 收藏ID（当接口中传了用户ID时，此字段有效，否则返回空字符串） |
+| data.categories\[\].type | string | 歌单类型： album-此歌单只包含资源；category-此歌单只包含子歌单 |
+| data.categories\[\].imgLarge | string | 歌单大图链接 |
+| data.categories\[\].thumb | string | 歌单小图链接 |
+| data.categories\[\].name | string | 歌单名称 |
+| data.categories\[\].description | string | 歌单详细描述 |
+| data.categories\[\].tags\[\] | string | 运营标识： ROOBO默认支持 new-当前资源是新资源， hot-当前资源是热度资源 |
+| data.categories\[\].total | int | 此歌单下包含的子歌单（或者资源）的总数量 |
 
 
 

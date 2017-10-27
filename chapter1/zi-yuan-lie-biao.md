@@ -58,7 +58,12 @@
                 }
             }
         ],
-        "album" : null
+        "album":{
+            "id":"100",
+            "name":"测试",
+            "imgLarge":"http://i.gtimg.cn/music/photo/mid_album_300/X/X/004G5J350sVsXX.jpg",
+            "imgSmall":"http://i.gtimg.cn/music/photo/mid_album_300/X/X/004G5J350sVsXX.jpg"
+        }
     }
 }
 ```
@@ -78,7 +83,10 @@
 | data.list\[\].artist | string | 歌手 |
 | data.list\[\].playUrls\[\].normal.size | int | 普通版本文件大小 |
 | data.list\[\].playUrls\[\].normal.url | string | 普通版本播放连接 |
-| data.album | object | 歌单详情，参考：[资源详情](/chapter1/zi-yuan-xiang-qing.md) |
+| data.album.id | string | 歌单ID |
+| data.album.name | string | 歌单名称 |
+| data.album.imgLarge | string | 专辑的大封面 |
+| data.album.imgSmall | string | 专辑的小封面 |
 
 
 
