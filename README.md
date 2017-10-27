@@ -4,8 +4,9 @@ ROOBO播放服务提供统一的资源获取、展示、播放、状态同步等
 
 
 
-[简介](README.md)
 
+
+* [简介](README.md)
 * [首页CMS](chapter1.md)
   * [模块列表](chapter1/zi-yuan-xiang-qing.md)
   * [歌单列表](chapter1/ge-dan-lie-biao.md)
@@ -33,6 +34,8 @@ ROOBO播放服务提供统一的资源获取、展示、播放、状态同步等
   * [下一首](chapter1/roobotong-yong-bo-fang-api/xia-yi-shou.md)
   * [上一首](chapter1/roobotong-yong-bo-fang-api/shang-yi-shou.md)
   * [MQTT上报播放状态&进度](chapter1/roobotong-yong-bo-fang-api/mqttshang-bao-bo-fang-zhuang-600126-jin-du.md)
+
+
 
 
 
