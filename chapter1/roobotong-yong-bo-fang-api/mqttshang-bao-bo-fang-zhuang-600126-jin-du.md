@@ -5,11 +5,9 @@
 * 设备注册：SN号，TOKEN分配
 * MQTT连接： 和ROOBO服务保持MQTT长连接
 
+SDK下载路径：
 
-
-SDK下载路径： 
-
-SDK说明文档： 
+SDK说明文档：
 
 
 
