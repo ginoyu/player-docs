@@ -7,7 +7,7 @@
 
 SDK下载路径：
 
-SDK说明文档：[ROOBO MQTT 协议文档-v1.3.0.pdf](/ROOBO MQTT 协议文档-v1.3.0.pdf)
+SDK说明文档：[ROOBO-MQTT-v1.3.0.pdf](/ROOBO-MQTT-v1.3.0.pdf)
 
 **MQTT资源点播**
 
