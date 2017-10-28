@@ -16,8 +16,8 @@ SDK说明文档：[ROOBO MQTT 协议文档-v1.3.0.pdf](/ROOBO MQTT 协议文档-
     "cmd":"demandMusicOnline",
     "trackListId":"10194",
     "trackId":"341280",
-    "url":"http://dwn.roo.bo/voices/songs/yiqianlingyiye/huanggongdexiaoairen.mp3",
-    "downloadUrl":"http://dwn.roo.bo/voices/songs/yiqianlingyiye/huanggongdexiaoairen.mp3",
+    "url":"http://dwn.roo.bo/voices/songs/test/huanggongdexiaoairen.mp3",
+    "downloadUrl":"http://dwn.roo.bo/voices/songs/test/huanggongdexiaoairen.mp3",
     "title":"皇宫的小矮人"
 }
 ```
