@@ -74,6 +74,15 @@ SDK说明文档：[ROOBO-MQTT-v1.3.0.pdf](/ROOBO-MQTT-v1.3.0.pdf)
 }
 ```
 
+**MQTT播放模式修改**
+
+```
+{
+    "cmd" : "setPlayMode",
+    "mode" : 1
+}
+```
+
 **MQTT播放状态上报**
 
 ```
