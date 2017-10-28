@@ -26,12 +26,12 @@
 
 | 参数 | 类型 | 可选 | 意义 |
 | :--- | :--- | :--- | :--- |
-| appId | string |  | 应用ID |
-| token | string |  | TOKEN |
-| clientId | string |  | 设备ID |
-| albumId | string |  | 歌单ID |
-| inserts\[\] | string | 是 | 待添加的资源ID |
-| removes\[\] | string | 是 | 删除的资源ID |
+| appId | string | 必填 | 应用ID |
+| token | string | 必填 | TOKEN |
+| clientId | string | 必填 | 设备ID |
+| albumId | string | 必填 | 歌单ID |
+| inserts\[\] | string | 可选 | 待添加的资源ID |
+| removes\[\] | string | 可选 | 删除的资源ID |
 
 返回值
 

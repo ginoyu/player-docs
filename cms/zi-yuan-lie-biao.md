@@ -24,11 +24,12 @@
 
 其中
 
-| token | string | 必选 | TOKEN |
+| 参数 | 类型 | 可选 | 意义 |
 | :--- | :--- | :--- | :--- |
+| token | stirng | 必填 | TOKEN |
 | clientId | string | 可选 | 用户ID，用于返回收藏相关信息 |
-| appId | string | 必选 | 应用ID |
-| albumId | string | 必选 | 歌单ID |
+| appId | string | 必填 | 应用ID |
+| albumId | string | 必填 | 歌单ID |
 | page | int | 可选 | 分页页数，默认是0 |
 | count | int | 可选 | 每页大小，默认是20， 最大100 |
 | queryAlbumInfo | bool | 可选 | 是否返回当前歌单详情 |
@@ -70,8 +71,9 @@
 
 其中
 
-| data.total | int | 资源总数 |
+| 返回值 | 类型 | 意义 |
 | :--- | :--- | :--- |
+| data.total | int | 资源总数 |
 | data.list\[\].resId | string | `收藏ID，如果没有收藏为0` |
 | data.list\[\].type | int | 内容类型： 0-文本， 1-音频URL |
 | data.list\[\].name | string | 资源名称 |

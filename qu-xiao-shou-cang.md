@@ -24,12 +24,12 @@
 
 | 参数 | 类型 | 可选 | 意义 |
 | :--- | :--- | :--- | :--- |
-| appId | string |  | 应用ID |
-| clientId | string |  | 设备ID |
-| userId | string | 是 | 取消收藏的用户ID |
-| resIds\[\] | string | 是 | 需要取消收藏的资源ID |
-| albumIds\[\] | string | 是 | 需要取消收藏的专辑ID |
-| favoriteIds\[\] | string | 是 | 需要取消收藏的收藏ID |
+| appId | string | 必填 | 应用ID |
+| clientId | string | 必填 | 设备ID |
+| userId | string | 选填 | 取消收藏的用户ID |
+| resIds\[\] | string | 选填 | 需要取消收藏的资源ID |
+| albumIds\[\] | string | 选填 | 需要取消收藏的专辑ID |
+| favoriteIds\[\] | string | 选填 | 需要取消收藏的收藏ID |
 
 返回值
 

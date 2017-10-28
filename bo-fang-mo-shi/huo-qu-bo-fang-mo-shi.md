@@ -20,10 +20,10 @@
 
 | 参数 | 类型 | 可选 | 意义 |
 | :--- | :--- | :--- | :--- |
-| appId | string |  | 应用ID |
-| token | string |  | 校验TOKEN |
-| userId | string | 是 | 执行设置模式的用户ID |
-| clientId | string |  | 用户或设备id， 收藏关联到该ID上 |
+| appId | string | 必填 | 应用ID |
+| token | string | 必填 | 校验TOKEN |
+| userId | string | 可选 | 执行设置模式的用户ID |
+| clientId | string | 可选 | 用户或设备id， 收藏关联到该ID上 |
 
 返回值
 

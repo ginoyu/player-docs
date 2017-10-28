@@ -24,12 +24,12 @@
 
 | 参数 | 类型 | 可选 | 意义 |
 | :--- | :--- | :--- | :--- |
-| appId | string |  | 应用ID |
-| userId | string | 是 | 过滤指定用户ID收藏的 |
-| clientId | string |  | 设备ID |
-| ranges | string | 是 | 查询范围： resource代表查询资源收藏；album查询专辑收藏默认代表只查询资源收藏 |
-| page | int | 是 | 分页页面，默认为1 |
-| count | int | 是 | 每页数量，默认为20 |
+| appId | string | 必填 | 应用ID |
+| userId | string | 选填 | 过滤指定用户ID收藏的 |
+| clientId | string | 必填 | 设备ID |
+| ranges | string | 选填 | 查询范围： resource代表查询资源收藏；album查询专辑收藏默认代表只查询资源收藏 |
+| page | int | 选填 | 分页页面，默认为1 |
+| count | int | 选填 | 每页数量，默认为20 |
 
 返回值
 

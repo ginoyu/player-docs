@@ -23,11 +23,11 @@
 
 | 参数 | 类型 | 可选 | 意义 |
 | :--- | :--- | :--- | :--- |
-| appId | string |  | 应用ID |
-| userId | string | 是 | 执行收藏的用户ID |
-| clientId | string |  | 设备id |
-| resId | string |  | 收藏资源ID |
-| albumId | string | 是 | 资源所属的专辑ID |
+| appId | string | 必填 | 应用ID |
+| userId | string | 选填 | 执行收藏的用户ID |
+| clientId | string | 必填 | 设备id |
+| resId | string | 必填 | 收藏资源ID |
+| albumId | string | 选填 | 资源所属的专辑ID |
 
 返回值：
 

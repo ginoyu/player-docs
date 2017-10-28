@@ -22,11 +22,11 @@
 
 | 参数 | 类型 | 可选 | 意义 |
 | :--- | :--- | :--- | :--- |
-| appId | string |  | 应用ID |
-| token | string |  | 产品TOKEN |
-| clientId | string | 是 | 播放主体ID（可以用来查询绑定相关的收藏或者其他信息） |
-| resId | string |  | 需要查询的资源ID |
-| albumId | string | 是 | 该资源关联的歌单ID，用于同时查询该歌单信息如果不指定，返回与该资源关联的第一个歌单 |
+| appId | string | 必填 | 应用ID |
+| token | string | 必填 | 产品TOKEN |
+| clientId | string | 可选 | 播放主体ID（可以用来查询绑定相关的收藏或者其他信息） |
+| resId | string | 必填 | 需要查询的资源ID |
+| albumId | string | 可选 | 该资源关联的歌单ID，用于同时查询该歌单信息如果不指定，返回与该资源关联的第一个歌单 |
 
 返回示例
 

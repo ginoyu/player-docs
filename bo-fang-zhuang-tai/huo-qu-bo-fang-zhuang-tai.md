@@ -22,11 +22,11 @@
 
 | 参数 | 类型 | 可选 | 意义 |
 | :--- | :--- | :--- | :--- |
-| appId | string | 否 | 应用ID |
-| clientId | string | 否 | 客户端ID（用户ID或者设备ID） |
-| token | string | 否 | 设备TOKEN或者appId token |
-| userId | string | 是 | 当前查询的用户ID，用于检查收藏 |
-| skipStop | string | 是 | 是否过滤状态为stop的记录；如果当前播放状态为stop，且skipStop为true，返回数据为空；否则返回stop状态数据 |
+| appId | string | 必填 | 应用ID |
+| clientId | string | 必填 | 客户端ID（用户ID或者设备ID） |
+| token | string | 必填 | 设备TOKEN或者appId token |
+| userId | string | 可选 | 当前查询的用户ID，用于检查收藏 |
+| skipStop | string | 可选 | 是否过滤状态为stop的记录；如果当前播放状态为stop，且skipStop为true，返回数据为空；否则返回stop状态数据 |
 
 返回示例:
 

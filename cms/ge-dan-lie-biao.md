@@ -22,9 +22,10 @@
 
 其中
 
-| appId | string | 必选 | 应用ID |
+| 参数 | 类型 | 可选 | 意义 |
 | :--- | :--- | :--- | :--- |
-| token | string | 必选 | TOKEN |
+| appId | string | 必填 | 应用ID |
+| token | string | 必填 | TOKEN |
 | clientId | string | 可选 | 用户ID，用于返回收藏相关信息 |
 | moduleId | string | 可选 | 模块ID（当获取模块下所有歌单时，传该参数） |
 | albumId | string | 可选 | 歌单ID（当获取某个歌单下所有子歌单时，传该参数） |
@@ -63,8 +64,9 @@
 
 其中返回值意义如下
 
-| data.total | int | 模块或者歌单下所有的（子）歌单数量 |
+| 返回值 | 类型 | 意义 |
 | :--- | :--- | :--- |
+| data.total | int | 模块或者歌单下所有的（子）歌单数量 |
 | data.categories\[\].id | int | 歌单ID |
 | data.categories\[\].favoriteId | string | 收藏ID（当接口中传了用户ID时，此字段有效，否则返回空字符串） |
 | data.categories\[\].type | string | 歌单类型： album-此歌单只包含资源；category-此歌单只包含子歌单 |
