@@ -2,8 +2,6 @@
 
 ROOBO播放服务提供统一的资源获取、展示、点播、状态同步等一系列功能的。
 
-
-
 * [简介](README.md)
 * [首页CMS](chapter1.md)
   * [模块列表](cms/zi-yuan-xiang-qing.md)
@@ -35,10 +33,6 @@ ROOBO播放服务提供统一的资源获取、展示、点播、状态同步等
   * [下一首](roobotong-yong-bo-fang-api/xia-yi-shou.md)
   * [上一首](roobotong-yong-bo-fang-api/shang-yi-shou.md)
   * [MQTT通用播放协议](roobotong-yong-bo-fang-api/mqttshang-bao-bo-fang-zhuang-600126-jin-du.md)
-
-
-
-
 
 
 
