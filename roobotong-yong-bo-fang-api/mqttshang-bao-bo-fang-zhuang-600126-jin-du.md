@@ -42,7 +42,6 @@ SDK说明文档：[ROOBO MQTT 协议文档-v1.3.0.pdf](/ROOBO MQTT 协议文档-
     "url":"http://dwn.roo.bo/voices/songs/yiqianlingyiye/huanggongdexiaoairen.mp3",
     "downloadUrl":"http://dwn.roo.bo/voices/songs/yiqianlingyiye/huanggongdexiaoairen.mp3",
     "title":"皇宫的小矮人"
-
 }
 ```
 
@@ -56,7 +55,6 @@ SDK说明文档：[ROOBO MQTT 协议文档-v1.3.0.pdf](/ROOBO MQTT 协议文档-
     "url":"http://dwn.roo.bo/voices/songs/test/huanggongdexiaoairen.mp3",
     "downloadUrl":"http://dwn.roo.bo/voices/songs/test/huanggongdexiaoairen.mp3",
     "title":"皇宫的小矮人"
-
 }
 ```
 
