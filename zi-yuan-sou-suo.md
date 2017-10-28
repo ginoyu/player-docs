@@ -2,13 +2,11 @@
 
 对于ROOBO的海量资源，第三方可以使用该接口搜索资源或者专辑。
 
-
-
 接口： /search
 
 方法： POST
 
-示例： [http://player.roobo.net/search](http://player.roobo.net/search)
+示例： [http://player.roobo.net/search](http://player.roobo.net/search)
 
 请求参数：
 
@@ -17,6 +15,7 @@
   "appId" : "EvXLUN3xtyON74KY",
   "token" : "o6aSmwOHw4i1gxL_pQGydDOPoaHk",
   "clientId" : "1011000000201457",
+  "userId" : "ps:5724e37aa1bfd42510b52256ec620b17",
   "ranges" : ["resource", "album"],
   "count" : 20,
   "keywords" : ["刘德华"]
@@ -28,10 +27,9 @@
 | 参数 | 类型 | 可选 | 意义 |
 | :--- | :--- | :--- | :--- |
 | appId | string | 必选 | 应用ID |
-| production | string | 可选 | 产品类型 |
 | token | string | 必选 | TOKEN |
 | clientId | string | 可选 | 设备ID |
-| resDBs\[\] | string | 可选 | 搜索的资源库，如果不指定则搜索所有有权限的资源库 |
+| userId | string | 可选 | 执行搜索操作的用户ID |
 | keywords\[\] | string | 必选 | 搜索关键词 |
 | ranges\[\] | string | 可选 | 搜索范围，搜索资源还是专辑；默认不填代表只搜索资源 |
 | count | int | 可选 | 结果数量，默认是20， 不能超过100 |
