@@ -2,7 +2,7 @@
 
 播放状态可以通过两种方式上报：
 
-（1） ROOBO通用的MQTT服务，当设备接入ROOBO的MQTT后，可以使用ROOBO SDK上报播放状态
+（1） ROOBO通用的MQTT服务，当设备接入ROOBO的MQTT后，可以使用ROOBO SDK上报播放状态（参考[MQTT通用播放协议](/chapter1/roobotong-yong-bo-fang-api/mqttshang-bao-bo-fang-zhuang-600126-jin-du.md)）
 
 （2）通用的播放状态上报HTTP接口，第三方设备直接调用或者由第三方代理调用上报播放状态
 

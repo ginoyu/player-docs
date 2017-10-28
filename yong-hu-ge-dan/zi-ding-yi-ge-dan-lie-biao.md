@@ -4,7 +4,7 @@
 
 方法： POST
 
-示例： [http://player.roobo.net/user-album\[/\]\(http://player.roobo.net/user/new-album\)list](http://player.roobo.net/user-album[/]%28http://player.roobo.net/user/new-album%29list)
+示例： [http://player.roobo.net/user-album/list](http://player.roobo.net/user-album/list)
 
 请求参数
 

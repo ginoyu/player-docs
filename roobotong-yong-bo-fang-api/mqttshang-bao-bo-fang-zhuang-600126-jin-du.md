@@ -7,7 +7,7 @@
 
 SDK下载路径：
 
-SDK说明文档：
+SDK说明文档：[ROOBO MQTT 协议文档-v1.3.0.pdf](/ROOBO MQTT 协议文档-v1.3.0.pdf)
 
 **MQTT资源点播**
 
@@ -80,7 +80,11 @@ SDK说明文档：
 
 ```
 {
-    
+    "action":"play.status.report",
+    "trackListId":"8068",
+    "trackId":"268923767",
+    "status":"play",
+    "offset":15
 }
 ```
 
