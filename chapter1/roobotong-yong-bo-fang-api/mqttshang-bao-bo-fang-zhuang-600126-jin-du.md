@@ -11,25 +11,86 @@ SDK说明文档：
 
 
 
+**MQTT资源点播**
+
+```
+{
+    "cmd":"demandMusicOnline",
+    "trackListId":"10194",
+    "trackId":"341280",
+    "url":"http://dwn.roo.bo/voices/songs/yiqianlingyiye/huanggongdexiaoairen.mp3",
+    "downloadUrl":"http://dwn.roo.bo/voices/songs/yiqianlingyiye/huanggongdexiaoairen.mp3",
+    "title":"皇宫的小矮人"
+}
+```
+
+其中各参数意义
+
+| 参数 | 类型 | 意义 |
+| :--- | :--- | :--- |
+| trackListId | string | 专辑ID |
+| trackId | string | 资源ID |
+| url | string | 在线播放URL |
+| downloadUrl | string | 离线下载URL |
+| title | string | 资源名称 |
 
 
 
+**MQTT播放上一首**
+
+```
+{
+    "cmd" : "backward",
+    "trackListId":"10194",
+    "trackId":"341280",
+    "url":"http://dwn.roo.bo/voices/songs/yiqianlingyiye/huanggongdexiaoairen.mp3",
+    "downloadUrl":"http://dwn.roo.bo/voices/songs/yiqianlingyiye/huanggongdexiaoairen.mp3",
+    "title":"皇宫的小矮人"
+
+}
+```
+
+
+
+**MQTT播放下一首**
+
+```
+{
+    "cmd" : "forward",
+    "trackListId":"10194",
+    "trackId":"341280",
+    "url":"http://dwn.roo.bo/voices/songs/yiqianlingyiye/huanggongdexiaoairen.mp3",
+    "downloadUrl":"http://dwn.roo.bo/voices/songs/yiqianlingyiye/huanggongdexiaoairen.mp3",
+    "title":"皇宫的小矮人"
+
+}
+```
+
+**MQTT暂停播放**
+
+```
+{
+    "cmd" : "pause"
+}
+```
+
+**MQTT恢复播放**
+
+```
+{
+    "cmd" : "resume"
+}
+```
 
 
 
 **MQTT播放状态上报**
 
-
-
-
-
-
-
-**MQTT上报播放状态**
-
-参考SDK中的\*\*\*\*\*
-
-
+```
+{
+    ""
+}
+```
 
 
 
