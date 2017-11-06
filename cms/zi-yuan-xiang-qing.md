@@ -1,10 +1,10 @@
 **模块列表**
 
-接口： /resources/modules
+接口： /cms/modules
 
 方法：POST
 
-示例： [http://player.roobo.net/resources/modules](http://player.roobo.net/resources/modules)
+示例：[http://player.roobo.net/cms/modules](http://player.roobo.net/cms/modules)
 
 请求参数
 
@@ -35,7 +35,7 @@
         "total": 2,
         "modules": [
             {
-                "id": 5,
+                "id": "5",
                 "name": "gagaagaga",
                 "icon": "http://dwn.roo.bo/voices/songs/test/31e81c7b2323694c53b491691f20998e.jpg",
                 "attr": "mod",
@@ -52,7 +52,7 @@
                 ]
             },
             {
-                "id": 1,
+                "id": "1",
                 "name": "4444",
                 "icon": "http://dwn.roo.bo/voices/songs/test/31e81c7b2323694c53b491691f20998e.jpg",
                 "attr": "ad",
@@ -84,8 +84,6 @@
 ```
 
 各返回值意义如下
-
-
 
 | 返回值 | 类型 | 意义 |
 | :--- | :--- | :--- |
