@@ -45,6 +45,7 @@
                         "id": "6",
                         "type": "audio",
                         "name": "hello content",
+                        "content" : "http://dwn.roo.bo/voices/songs/test/31e81c7b2323694c53b491691f20998e.jpg",
                         "img": "",
                         "tags": []
                     }
@@ -60,7 +61,7 @@
                     {
                         "id": 1,
                         "type": "ad",
-                        "content": "1",
+                        "content": "http://www.baidu.com",
                         "name": "喜羊羊",
                         "img": "gaga",
                         "tags": []
@@ -88,11 +89,6 @@
 | data.modules\[\].contents\[\].img | string | 内容图片 |
 | data.modules\[\].contents\[\].type | string | 内容类型： album-歌单；ad-广告内容；audio-歌曲； |
 | data.modules\[\].contents\[\].tags\[\] | string | 运营标识：new，hot；年龄标识：one,two,three; |
-| data.modules\[\].contents\[\].lists\[\].id | string | 广告id/歌单ID |
-| data.modules\[\].contents\[\].lists\[\].name | string | 广告名称/歌单名称 |
-| data.modules\[\].contents\[\].lists\[\].type | string | 类型:album-歌单;banner-广告 |
-| data.modules\[\].contents\[\].lists\[\].img | string | 广告图片/歌单图片 |
-| data.modules\[\].contents\[\].lists\[\].description | string | 广告描述/歌单描述 |
 
 目前支持的data.attr类型
 
@@ -100,7 +96,7 @@
 | :--- | :--- |
 | mod | 普通模块 |
 | cls | 分类视图 |
-| banner | 广告位（轮播图） |
+| ad | 广告位（轮播图） |
 
 
 
