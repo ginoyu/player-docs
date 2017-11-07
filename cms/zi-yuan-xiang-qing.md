@@ -63,16 +63,7 @@
                         "content": "1",
                         "name": "喜羊羊",
                         "img": "gaga",
-                        "tags": [],
-                        "list": [
-                            {
-                                "id": "8075",
-                                "type": "album",
-                                "name": "",
-                                "img": "",
-                                "description": ""
-                            }
-                        ]
+                        "tags": []
                     }
                 ]
             }
