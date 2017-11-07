@@ -23,7 +23,7 @@
 | 参数 | 类型 | 可选 | 意义 |
 | :--- | :--- | :--- | :--- |
 | appId | string | 必选 | 应用ID |
-| clientId | string | 可选 | 设备ID |
+| clientId | string | 必选 | 设备ID |
 | token | string | 必选 | 权限TOKEN |
 | userId | string | 可选 | 用户ID |
 | tags\[\] | string | 必选 | 过滤标签 |
