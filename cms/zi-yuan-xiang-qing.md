@@ -88,6 +88,7 @@
 | data.modules\[\].contents\[\].description | string | 内容详细描述 |
 | data.modules\[\].contents\[\].img | string | 内容图片 |
 | data.modules\[\].contents\[\].type | string | 内容类型： album-歌单；ad-广告内容；audio-歌曲； |
+| data.modules\[\].contents\[\].content | string | 内容，受type影响： album-歌单ID， audio-资源URL；ad-广告的跳转 |
 | data.modules\[\].contents\[\].tags\[\] | string | 运营标识：new，hot；年龄标识：one,two,three; |
 
 目前支持的data.attr类型
