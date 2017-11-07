@@ -49,7 +49,8 @@
                         "type": "audio",
                         "name": "hello content",
                         "content" : "http://dwn.roo.bo/voices/songs/test/31e81c7b2323694c53b491691f20998e.jpg",
-                        "img": "",
+                        "imgLarge": "http://media.roo.bo//thirdparty/20170922/bd3a35d15030cd92fefe3099844aec56.png",
+                        "imgSmall" : "http://media.roo.bo//thirdparty/20170922/162a42332a2441e9d2a36d508e5eed9e.png",
                         "tags": []
                     }
                 ]
@@ -66,7 +67,8 @@
                         "type": "ad",
                         "content": "http://www.baidu.com",
                         "name": "喜羊羊",
-                        "img": "gaga",
+                        "imgLarge": "http://media.roo.bo//thirdparty/20170922/bd3a35d15030cd92fefe3099844aec56.png",
+                        "imgSmall" : "http://media.roo.bo//thirdparty/20170922/162a42332a2441e9d2a36d508e5eed9e.png",
                         "tags": []
                     }
                 ]
