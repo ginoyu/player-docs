@@ -91,7 +91,8 @@
 | data.modules\[\].contents\[\].id | string | 内容ID |
 | data.modules\[\].contents\[\].name | string | 内容名称 |
 | data.modules\[\].contents\[\].description | string | 内容详细描述 |
-| data.modules\[\].contents\[\].imgLarge | string | 内容图片 |
+| data.modules\[\].contents\[\].imgLarge | string | 内容图片：大图 |
+| data.modules\[\].contents\[\].imgSmall | string | 内容图片：小图 |
 | data.modules\[\].contents\[\].type | string | 内容类型： album-歌单；ad-广告内容；audio-歌曲； |
 | data.modules\[\].contents\[\].content | string | 内容，受type影响： album-歌单ID， audio-资源URL；ad-广告的跳转 |
 | data.modules\[\].contents\[\].tags\[\] | string | 运营标识：new，hot；年龄标识：one,two,three; |
