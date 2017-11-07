@@ -97,14 +97,11 @@
 | data.modules\[\].contents\[\].img | string | 内容图片 |
 | data.modules\[\].contents\[\].type | string | 内容类型： album-歌单；ad-广告内容；audio-歌曲； |
 | data.modules\[\].contents\[\].tags\[\] | string | 运营标识：new，hot；年龄标识：one,two,three; |
-| data.modules\[\].contents\[\].detail | array | 歌单、歌曲的详细信息 |
 | data.modules\[\].contents\[\].lists\[\].id | string | 广告id/歌单ID |
 | data.modules\[\].contents\[\].lists\[\].name | string | 广告名称/歌单名称 |
 | data.modules\[\].contents\[\].lists\[\].type | string | 类型:album-歌单;banner-广告 |
 | data.modules\[\].contents\[\].lists\[\].img | string | 广告图片/歌单图片 |
 | data.modules\[\].contents\[\].lists\[\].description | string | 广告描述/歌单描述 |
-
-
 
 目前支持的data.attr类型
 
