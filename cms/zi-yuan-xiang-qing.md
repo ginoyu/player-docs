@@ -13,6 +13,7 @@
   "appId" : "EvXLUN3xtyON74KY",
   "token" : "786203ce01256d1d590e2d0a1c1f11b62076",
   "clientId" : "10110000002003C7",
+  "userId" : "",
   "tags" : []
 }
 ```
@@ -22,7 +23,9 @@
 | 参数 | 类型 | 可选 | 意义 |
 | :--- | :--- | :--- | :--- |
 | appId | string | 必选 | 应用ID |
-| clientId | string | 可选 | 用于绑定收藏的用户ID |
+| clientId | string | 可选 | 设备ID |
+| token | string | 必选 | 权限TOKEN |
+| userId | string | 可选 | 用户ID |
 | tags\[\] | string | 必选 | 过滤标签 |
 
 返回值
