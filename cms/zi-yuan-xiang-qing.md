@@ -42,9 +42,8 @@
                 "description": "",
                 "contents": [
                     {
-                        "id": 6,
+                        "id": "6",
                         "type": "audio",
-                        "content": "28537",
                         "name": "hello content",
                         "img": "",
                         "tags": []
@@ -67,9 +66,8 @@
                         "tags": [],
                         "list": [
                             {
-                                "id": 1,
+                                "id": "8075",
                                 "type": "album",
-                                "content": "8075",
                                 "name": "",
                                 "img": "",
                                 "description": ""
@@ -100,12 +98,21 @@
 | data.modules\[\].contents\[\].type | string | 内容类型： album-歌单；ad-广告内容；audio-歌曲； |
 | data.modules\[\].contents\[\].tags\[\] | string | 运营标识：new，hot；年龄标识：one,two,three; |
 | data.modules\[\].contents\[\].detail | array | 歌单、歌曲的详细信息 |
-| data.modules\[\].contents\[\].lists\[\].id | string | 广告id |
-| data.modules\[\].contents\[\].lists\[\].name | string | 广告名称 |
-| data.modules\[\].contents\[\].lists\[\].type | string | 广告类型 |
-| data.modules\[\].contents\[\].lists\[\].content | string | 广告内容 |
-| data.modules\[\].contents\[\].lists\[\].img | string | 广告图片 |
-| data.modules\[\].contents\[\].lists\[\].description | string | 广告描述 |
+| data.modules\[\].contents\[\].lists\[\].id | string | 广告id/歌单ID |
+| data.modules\[\].contents\[\].lists\[\].name | string | 广告名称/歌单名称 |
+| data.modules\[\].contents\[\].lists\[\].type | string | 类型:album-歌单;banner-广告 |
+| data.modules\[\].contents\[\].lists\[\].img | string | 广告图片/歌单图片 |
+| data.modules\[\].contents\[\].lists\[\].description | string | 广告描述/歌单描述 |
+
+
+
+目前支持的data.attr类型
+
+| data.attr | 类型意义 |
+| :--- | :--- |
+| mod | 普通模块 |
+| cls | 分类视图 |
+| banner | 广告位（轮播图） |
 
 
 
