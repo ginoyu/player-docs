@@ -24,7 +24,7 @@
 | :--- | :--- | :--- | :--- |
 | appId | string | 必填 | 应用ID |
 | token | string | 必填 | 产品TOKEN |
-| clientId | string | 可选 | 播放主体ID（可以用来查询绑定相关的收藏或者其他信息） |
+| clientId | string | 可选 | 设备ID |
 | resId | string | 必填 | 需要查询的资源ID |
 | albumId | string | 可选 | 该资源关联的歌单ID，用于同时查询该歌单信息如果不指定，返回与该资源关联的第一个歌单 |
 

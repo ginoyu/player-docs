@@ -27,7 +27,7 @@
 | :--- | :--- | :--- | :--- |
 | appId | string | 必填 | 应用ID |
 | token | string | 必填 | 设备TOKEN或者应用TOKEN |
-| clientId | string | 必填 | 歌单关联的客户端ID（用户ID或者设备ID） |
+| clientId | string | 必填 | 设备ID |
 | userId | string | 可选 | 当歌单关联到设备上时，userId标识是哪个用户创建 |
 | newAlbum | bool | 可选 | 是否需要创建新歌单 |
 | albums\[\] | string | 必填 | 需要被初始化的歌单ID如果newAlbum为true，播放服务会根据该歌单ID创建一个新歌单如果newAlbum为false，播放服务会恢复该歌单到原始状态 |

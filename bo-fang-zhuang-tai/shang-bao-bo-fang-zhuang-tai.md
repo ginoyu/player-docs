@@ -34,8 +34,8 @@ HTTP接口
 | 参数 | 类型 | 可选 | 含义 |
 | :--- | :--- | :--- | :--- |
 | appId | string | 必填 | 应用标识 |
-| clientId | string | 必填 | 设备标识 |
-| resId | string | 必填 | 资源标识 |
+| clientId | string | 必填 | 设备ID |
+| resId | string | 必填 | 资源ID |
 | albumId | string | 选填 | 资源所属的歌单ID，当资源属于多个歌单时有用 |
 | sid | string | 选填 | session id；当资源比较复杂（互动故事等）是由多段组成的时候；该参数用于标识当前播放的是哪一小段 |
 | status | string | 必填 | 播放状态，可选值：ready 准备播放-初始值loading 播放加载中play 播放中pause 暂停stop 结束 |

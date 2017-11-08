@@ -24,7 +24,7 @@
 | :--- | :--- | :--- | :--- |
 | appId | string | 必填 | 应用ID |
 | userId | string | 选填 | 执行设置模式的用户ID |
-| clientId | string | 必填 | 用户或设备id， 收藏关联到该ID上 |
+| clientId | string | 必填 | 设备id |
 | mode | string | 必填 | 播放模式 random - 随机播放order - 顺序播放cycle - 全部循环repeat - 单曲循环 |
 
 返回值
