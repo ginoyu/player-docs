@@ -33,4 +33,5 @@
   * [下一首](roobotong-yong-bo-fang-api/xia-yi-shou.md)
   * [上一首](roobotong-yong-bo-fang-api/shang-yi-shou.md)
   * [MQTT通用播放协议](roobotong-yong-bo-fang-api/mqttshang-bao-bo-fang-zhuang-600126-jin-du.md)
+* [错误码](cuo-wu-ma.md)
 
