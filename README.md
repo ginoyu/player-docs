@@ -2,6 +2,10 @@
 
 ROOBO播放服务提供统一的资源获取、展示、点播、状态同步等一系列功能的。
 
+
+
+
+
 * [简介](README.md)
 * [首页CMS](chapter1.md)
   * [模块列表](cms/zi-yuan-xiang-qing.md)
@@ -20,6 +24,8 @@ ROOBO播放服务提供统一的资源获取、展示、点播、状态同步等
   * [获取播放模式](bo-fang-mo-shi/huo-qu-bo-fang-mo-shi.md)
   * [设置播放模式](bo-fang-mo-shi/she-zhi-bo-fang-mo-shi.md)
 * [播放历史记录](bo-fang-li-shi-ji-lu.md)
+  * [历史记录列表](bo-fang-li-shi-ji-lu/li-shi-ji-lu-lie-biao.md)
+  * [删除历史记录](bo-fang-li-shi-ji-lu/shan-chu-li-shi-ji-lu.md)
 * [资源搜索](zi-yuan-sou-suo.md)
 * [收藏](shou-cang.md)
   * [资源收藏](shou-cang/shou-cang-zi-yuan.md)
@@ -33,6 +39,10 @@ ROOBO播放服务提供统一的资源获取、展示、点播、状态同步等
   * [下一首](roobotong-yong-bo-fang-api/xia-yi-shou.md)
   * [上一首](roobotong-yong-bo-fang-api/shang-yi-shou.md)
   * [MQTT通用播放协议](roobotong-yong-bo-fang-api/mqttshang-bao-bo-fang-zhuang-600126-jin-du.md)
+
+
+
+
 
 
 
