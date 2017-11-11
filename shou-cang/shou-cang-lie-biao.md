@@ -15,6 +15,7 @@
     "userId":"ps:5724e37aa1bfd42510b52256ec620b17",
     "clientId":"1011000000101005",
     "ranges" : [ "resource", "album" ],
+    "bind" : "device",
     "count" : 20,
     "page" : 1
 }
@@ -25,9 +26,11 @@
 | 参数 | 类型 | 可选 | 意义 |
 | :--- | :--- | :--- | :--- |
 | appId | string | 必填 | 应用ID |
+| token | string | 必填 | 验证TOKEN |
 | userId | string | 选填 | 过滤指定用户ID收藏的 |
 | clientId | string | 必填 | 设备ID |
 | ranges | string | 选填 | 查询范围： resource代表查询资源收藏；album查询专辑收藏默认代表只查询资源收藏 |
+| bind | string | 选填 | 收藏关联到设备上还是用户上； device-clientId有效，user-userId有效（默认值） |
 | page | int | 选填 | 分页页面，默认为1 |
 | count | int | 选填 | 每页数量，默认为20 |
 

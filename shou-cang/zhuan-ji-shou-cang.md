@@ -14,7 +14,8 @@
     "token" : "786203ce01256d1d590e2d0a1c1f11b62076",
     "clientId":"1011000000101005",
     "userId":"ps:5724e37aa1bfd42510b52256ec620b17",
-    "albumId" : "323"
+    "albumId" : "323",
+    "bind" : "device"
 }
 ```
 
@@ -25,7 +26,8 @@
 | appId | string | 必填 | 应用ID |
 | userId | string | 选填 | 执行收藏的用户ID |
 | clientId | string | 必填 | 设备id |
-| data.albumId | string | 选填 | 资源所属的专辑ID |
+| albumId | string | 选填 | 资源所属的专辑ID |
+| bind | string | 选填 | 收藏关联到设备上还是用户上； device-clientId有效，user-userId有效（默认值） |
 
 返回示例
 
