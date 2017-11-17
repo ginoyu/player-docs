@@ -11,7 +11,7 @@
 ```
 {
   "appId" : "EvXLUN3xtyON74KY",
-  "token" : "o6aSmwOHw4i1gxL_pQGydDOPoaHk",
+  "token" : "786203ce01256d1d590e2d0a1c1f11b62076",
   "clientId" : "1011000000201457",
   "userId" : "ps:5724e37aa1bfd42510b52256ec620b17",
   "parentId" : "100",
