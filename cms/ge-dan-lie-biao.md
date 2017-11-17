@@ -17,6 +17,8 @@
     "clientId" : "10110000002003C7",
     "moduleId" : "189",
     "albumId" : "100",
+    "page" : 1,
+    "count" : 20
 }
 ```
 
@@ -29,7 +31,8 @@
 | clientId | string | 可选 | 用户ID，用于返回收藏相关信息 |
 | moduleId | string | 可选 | 模块ID（当获取模块下所有歌单时，传该参数） |
 | albumId | string | 可选 | 歌单ID（当获取某个歌单下所有子歌单时，传该参数，暂不支持） |
-| 参数 | 类型 | 可选 | 意义 |
+| page | int | 可选 | 分页，默认是1 |
+| count | int | 可选 | 每页大小，默认是20 |
 
 注：
 
