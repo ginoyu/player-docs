@@ -32,7 +32,7 @@
 | resIds\[\] | string | 选填 | 需要取消收藏的资源ID（暂不支持） |
 | albumIds\[\] | string | 选填 | 需要取消收藏的专辑ID（暂不支持） |
 | favoriteIds\[\] | string | 选填 | 需要取消收藏的收藏ID |
-| bind | string | 选填 | 收藏关联到设备上还是用户上； device-clientId有效，user-userId有效（默认值） |
+| bind | stri6ng | 选填 | 收藏关联到设备上还是用户上； device-clientId有效，user-userId有效（默认值） |
 
 返回值
 

@@ -11,6 +11,7 @@
   * [关联歌单资源](yong-hu-ge-dan/guan-lian-ge-dan-zi-yuan.md)
   * [自定义歌单列表](yong-hu-ge-dan/zi-ding-yi-ge-dan-lie-biao.md)
   * [歌单资源列表](yong-hu-ge-dan/ge-dan-zi-yuan-lie-biao.md)
+  * [创建自定义歌单](yong-hu-ge-dan/chuang-jian-zi-ding-yi-ge-dan.md)
 * [播放状态](bo-fang-zhuang-tai.md)
   * [获取播放状态](bo-fang-zhuang-tai/huo-qu-bo-fang-zhuang-tai.md)
   * [上报播放状态](bo-fang-zhuang-tai/shang-bao-bo-fang-zhuang-tai.md)
