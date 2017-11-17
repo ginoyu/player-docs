@@ -16,6 +16,7 @@
   "userId" : "ps:5724e37aa1bfd42510b52256ec620b17",
   "resId":"aires:485965",
   "albumId" : "100",
+  "trigger" : "album",
   "cmdProtocol" : "mqtt.v1"
 }
 ```
@@ -30,6 +31,7 @@
 | userId | string | 可选 | 执行播放操作的用户ID |
 | resId | string | 必填 | 需要播放的资源ID |
 | albumId | string | 可选 | 该资源关联的歌单ID，用于上一首，下一首时根据歌单ID自动进行 |
+| trigger | string | 可选 | 点播方式（默认值album）：album-歌单点播；history-历史记录点播；favorite-收藏点播 |
 | cmdProtocol | string | 可选 | 是否推送标准播放命令给设备（具体MQTT消息格式参考\*\*） |
 
 返回值
