@@ -40,8 +40,8 @@
     "albumbId" : "1000",
     "parentId" : "100",
     "name" : "歌单标题",
-    "imgLarge" : "",
-    "imgSmall" : ""
+    "imgLarge" : "http://media.roobo.net/appimg/20161114_67fe4ba23ba80b325d4b388838d31853.png",
+    "imgSmall" : "http://media.roobo.net/appimg/20161117_fea417c257b8b2826f801d41a3a48931.jpg"
   }
 }
 ```
