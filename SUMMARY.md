@@ -15,6 +15,7 @@
 * [播放状态](bo-fang-zhuang-tai.md)
   * [获取播放状态](bo-fang-zhuang-tai/huo-qu-bo-fang-zhuang-tai.md)
   * [上报播放状态](bo-fang-zhuang-tai/shang-bao-bo-fang-zhuang-tai.md)
+  * [播放状态通知](bo-fang-zhuang-tai/bo-fang-zhuang-tai-tong-zhi.md)
 * [播放模式](bo-fang-mo-shi.md)
   * [获取播放模式](bo-fang-mo-shi/huo-qu-bo-fang-mo-shi.md)
   * [设置播放模式](bo-fang-mo-shi/she-zhi-bo-fang-mo-shi.md)
