@@ -2,6 +2,8 @@
 
 ROOBO播放服务提供统一的资源获取、展示、点播、状态同步等一系列功能的。
 
+
+
 * [简介](README.md)
 * [首页CMS](chapter1.md)
   * [模块列表](cms/zi-yuan-xiang-qing.md)
@@ -13,9 +15,11 @@ ROOBO播放服务提供统一的资源获取、展示、点播、状态同步等
   * [关联歌单资源](yong-hu-ge-dan/guan-lian-ge-dan-zi-yuan.md)
   * [自定义歌单列表](yong-hu-ge-dan/zi-ding-yi-ge-dan-lie-biao.md)
   * [歌单资源列表](yong-hu-ge-dan/ge-dan-zi-yuan-lie-biao.md)
+  * [创建自定义歌单](yong-hu-ge-dan/chuang-jian-zi-ding-yi-ge-dan.md)
 * [播放状态](bo-fang-zhuang-tai.md)
   * [获取播放状态](bo-fang-zhuang-tai/huo-qu-bo-fang-zhuang-tai.md)
   * [上报播放状态](bo-fang-zhuang-tai/shang-bao-bo-fang-zhuang-tai.md)
+  * [播放状态通知](bo-fang-zhuang-tai/bo-fang-zhuang-tai-tong-zhi.md)
 * [播放模式](bo-fang-mo-shi.md)
   * [获取播放模式](bo-fang-mo-shi/huo-qu-bo-fang-mo-shi.md)
   * [设置播放模式](bo-fang-mo-shi/she-zhi-bo-fang-mo-shi.md)
@@ -36,6 +40,10 @@ ROOBO播放服务提供统一的资源获取、展示、点播、状态同步等
   * [上一首](roobotong-yong-bo-fang-api/shang-yi-shou.md)
   * [MQTT通用播放协议](roobotong-yong-bo-fang-api/mqttshang-bao-bo-fang-zhuang-600126-jin-du.md)
 * [错误码](cuo-wu-ma.md)
+
+
+
+
 
 
 
