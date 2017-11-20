@@ -2,11 +2,11 @@
 
 服务端根据设备上报的当前状态和播放模式，返回上一首信息，如果指定了下行命令协议，将会调用推送服务，给设备推送ROOBO标准的播放协议
 
-接口： /prev
+接口： /device/prev
 
 方法： POST
 
-示例： [http://player.roobo.net/prev](http://player.roobo.net/prev)
+示例： [http://player.roobo.net/device/prev](http://player.roobo.net/device/prev)
 
 请求参数
 

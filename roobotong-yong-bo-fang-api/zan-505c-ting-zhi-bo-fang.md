@@ -1,10 +1,10 @@
 **暂停/停止播放**
 
-接口： /pause
+接口： /device/pause
 
 方法： POST
 
-示例： [http://player.roobo.net/pause](http://player.roobo.net/pause)
+示例： [http://player.roobo.net/device/pause](http://player.roobo.net/device/pause)
 
 请求参数
 

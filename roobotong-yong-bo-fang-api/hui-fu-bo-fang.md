@@ -1,12 +1,10 @@
 **恢复播放**
 
-
-
-接口： /resume
+接口： /device/resume
 
 方法： POST
 
-示例： [http://player.roobo.net/resume](http://player.roobo.net/resume)
+示例： [http://player.roobo.net/device/resume](http://player.roobo.net/device/resume)
 
 请求参数
 
@@ -24,8 +22,8 @@
 
 | 参数 | 类型 | 可选 | 意义 |
 | :--- | :--- | :--- | :--- |
-| appId | string | 必填  | 应用ID |
-| token | string | 必填  | 产品TOKEN |
+| appId | string | 必填 | 应用ID |
+| token | string | 必填 | 产品TOKEN |
 | clientId | string | 必填 | 播放设备ID |
 | userId | string | 可选 | 执行暂停操作的用户ID |
 | cmdProtocol | string | 可选 | 是否推送标准暂停命令给设备（具体MQTT消息格式参考\*\*） |

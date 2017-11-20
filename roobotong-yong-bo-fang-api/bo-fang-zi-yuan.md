@@ -1,10 +1,10 @@
 **播放指定的资源**
 
-接口： /play
+接口： /device/play
 
 方法： POST
 
-示例： [http://player.roobo.net/play](http://player.roobo.net/play)
+示例： [http://player.roobo.net/device/play](http://player.roobo.net/device/play)
 
 请求参数
 
