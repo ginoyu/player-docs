@@ -59,12 +59,12 @@
                 "id": "1",
                 "name": "4444",
                 "icon": "http://dwn.roo.bo/voices/songs/test/31e81c7b2323694c53b491691f20998e.jpg",
-                "attr": "ad",
+                "attr": "banner",
                 "description": "",
                 "contents": [
                     {
-                        "id": 1,
-                        "type": "ad",
+                        "id": "1",
+                        "type": "url",
                         "content": "http://www.baidu.com",
                         "name": "喜羊羊",
                         "imgLarge": "http://media.roo.bo//thirdparty/20170922/bd3a35d15030cd92fefe3099844aec56.png",
@@ -99,11 +99,11 @@
 
 目前支持的data.attr类型
 
-| data.attr | 类型意义 |
+| data.modules\[\].attr | 类型意义 |
 | :--- | :--- |
 | mod | 普通模块 |
 | cls | 分类视图 |
-| ad | 广告位（轮播图） |
+| banner | 广告位（轮播图） |
 
 
 

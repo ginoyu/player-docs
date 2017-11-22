@@ -1,6 +1,6 @@
 **获取收藏列表**
 
-接口： /favorite/list
+接口： /favorites/list
 
 方法： POST
 
