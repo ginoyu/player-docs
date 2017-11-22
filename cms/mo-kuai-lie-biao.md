@@ -28,6 +28,7 @@
 | clientId | string | 可选 | 设备ID |
 | resId | string | 必填 | 需要查询的资源ID |
 | albumId | string | 可选 | 该资源关联的歌单ID，用于同时查询该歌单信息如果不指定，返回与该资源关联的第一个歌单 |
+| bind | string | 可选 | 收藏关联到设备上还是用户上； device-clientId有效，user-userId有效（默认值） |
 
 返回示例
 
