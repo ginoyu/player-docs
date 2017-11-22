@@ -1,6 +1,6 @@
 **取消收藏**
 
-接口: /favorite/del
+接口: /favorites/del
 
 方法： POST
 
