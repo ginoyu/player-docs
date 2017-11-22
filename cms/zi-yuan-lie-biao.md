@@ -18,6 +18,7 @@
     "albumId" : "100",
     "queryAlbumInfo" : true,
     "page" : 1,
+    "bind" : "user",
     "count" : 20
 }
 ```
@@ -33,6 +34,7 @@
 | page | int | 可选 | 分页页数，默认是0 |
 | count | int | 可选 | 每页大小，默认是20， 最大100 |
 | queryAlbumInfo | bool | 可选 | 是否返回当前歌单详情 |
+| bind | string | 可选 |  |
 
 返回值
 

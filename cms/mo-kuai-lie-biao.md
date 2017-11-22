@@ -14,7 +14,8 @@
     "token":"786203ce01256d1d590e2d0a1c1f11b62076",
     "clientId":"3000020000000020",
     "resId":"aires:485965",
-    "albumId" : "100"
+    "albumId" : "100",
+    "bind" : "device"
 }
 ```
 
