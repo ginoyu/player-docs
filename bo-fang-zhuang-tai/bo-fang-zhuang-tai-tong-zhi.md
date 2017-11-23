@@ -19,7 +19,7 @@
 }
 ```
 
-其中各参数意义参考： [获取播放状态](/bo-fang-zhuang-tai/huo-qu-bo-fang-zhuang-tai.md)
+
 
 第三方服务返回的HTTP Code值是200代表响应成功
 
