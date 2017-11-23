@@ -14,33 +14,8 @@
     "clientId" : "10110000002003C7",
     "from":"mqtt",
     "topic":"player",
-    "action":"play.status.update",
-    "resource":{
-        "resId":"aires:485965",
-        "type":1,
-        "name":"雨后",
-        "favoriteId":"1000",
-        "length":259,
-        "content":"http://dwn.roo.bo/voices/songs/koudai/be9c171e1fbba48d3bd1f42b5d19b6f9.mp3",
-        "artist":"歌手",
-        "album":{
-            "id":"100",
-            "name":"测试",
-            "imgLarge":"http://i.gtimg.cn/music/photo/mid_album_300/X/X/004G5J350sVsXX.jpg",
-            "imgSmall":"http://i.gtimg.cn/music/photo/mid_album_300/X/X/004G5J350sVsXX.jpg"
-        },
-        "playUrls":{
-            "normal":{
-                "size":4072551,
-                "url":"http://dwn.roo.bo/voices/songs/koudai/be9c171e1fbba48d3bd1f42b5d19b6f9.mp3"
-            }
-        }
-    },
-    "status":"ready",
-    "offset":0,
-    "trigger":"album",
-    "timestamp":1478866368,
-    "playmode":"random"
+    "action":"play.status.update"
+    "timestamp":1478866368
 }
 ```
 
