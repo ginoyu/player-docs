@@ -6,12 +6,15 @@
 
 方法： POST
 
-请求参数： 
+请求参数：
 
 ```
 {
     "appId" : "EvXLUN3xtyON74KY",
     "clientId" : "10110000002003C7",
+    "from":"mqtt",
+    "topic":"player",
+    "action":"play.status.update",
     "resource":{
         "resId":"aires:485965",
         "type":1,
@@ -42,8 +45,6 @@
 ```
 
 其中各参数意义参考： [获取播放状态](/bo-fang-zhuang-tai/huo-qu-bo-fang-zhuang-tai.md)
-
-
 
 第三方服务返回的HTTP Code值是200代表响应成功
 
