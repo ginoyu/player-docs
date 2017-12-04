@@ -69,7 +69,6 @@
 | data.type | int | 内容类型： 0-文本， 1-音频URL |
 | data.name | string | 资源名称 |
 | data.score | int | 资源评分 |
-| data.fid | int | 收藏ID |
 | data.artist | string | 歌手信息 |
 | data.length | int | 资源时长 |
 | data.content | string | 默认播放连接/内容 |
