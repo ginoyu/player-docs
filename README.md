@@ -10,6 +10,7 @@ ROOBO播放服务提供统一的资源获取、展示、点播、状态同步等
   * [歌单列表](cms/ge-dan-lie-biao.md)
   * [资源列表](cms/zi-yuan-lie-biao.md)
   * [资源详情](cms/mo-kuai-lie-biao.md)
+  * [批量获取资源详情](cms/pi-liang-huo-qu-zi-yuan-xiang-qing.md)
 * [自定义歌单](yong-hu-ge-dan.md)
   * [初始化自定义歌单](yong-hu-ge-dan/chu-shi-hua-zi-ding-yi-ge-dan.md)
   * [关联歌单资源](yong-hu-ge-dan/guan-lian-ge-dan-zi-yuan.md)
@@ -40,8 +41,6 @@ ROOBO播放服务提供统一的资源获取、展示、点播、状态同步等
   * [上一首](roobotong-yong-bo-fang-api/shang-yi-shou.md)
   * [MQTT通用播放协议](roobotong-yong-bo-fang-api/mqttshang-bao-bo-fang-zhuang-600126-jin-du.md)
 * [错误码](cuo-wu-ma.md)
-
-
 
 
 
