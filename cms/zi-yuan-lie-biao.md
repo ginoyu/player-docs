@@ -31,7 +31,7 @@
 | clientId | string | 可选 | 用户ID，用于返回收藏相关信息 |
 | appId | string | 必填 | 应用ID |
 | albumId | string | 必填 | 歌单ID |
-| page | int | 可选 | 分页页数，默认是0 |
+| page | int | 可选 | 分页页数，默认是1 |
 | count | int | 可选 | 每页大小，默认是20， 最大100 |
 | queryAlbumInfo | bool | 可选 | 是否返回当前歌单详情 |
 | bind | string | 可选 | 收藏关联到设备上还是用户上； device-clientId有效，user-userId有效（默认值） |
