@@ -1,7 +1,5 @@
 **ROOBO通用播放协议**
 
-
-
 * [播放资源](/roobotong-yong-bo-fang-api/bo-fang-zi-yuan.md)
 * [暂停/停止播放](/roobotong-yong-bo-fang-api/zan-505c-ting-zhi-bo-fang.md)
 * [恢复播放](/roobotong-yong-bo-fang-api/hui-fu-bo-fang.md)

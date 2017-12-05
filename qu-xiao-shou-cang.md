@@ -18,7 +18,6 @@
    "albumIds" : ["100"],
    "favoriteIds" : ["100"],
    "bind" : "device"
-
 }
 ```
 
