@@ -26,7 +26,7 @@
 | token | string | 必填 | 设备TOKEN或者应用TOKEN |
 | clientId | string | 必填 | 设备ID |
 | userId | string | 可选 | 当歌单关联到设备上时，userId标识是哪个用户创建 |
-| parentId | string | 可选 | 父歌单ID，当不填或者为空时，表示没有父歌单ID |
+| parentId | string | 可选 | 父歌单ID（暂不支持，不填）：当不填或者为空时，表示没有父歌单ID |
 
 返回值
 

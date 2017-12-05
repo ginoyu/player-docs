@@ -60,7 +60,7 @@
 | 返回值 | 类型 | 意义 |
 | :--- | :--- | :--- |
 | data.albums\[\].albumId | string | 专辑ID（如果是新增的话，是新增专辑ID） |
-| data.albums\[\].parentId | string | 父专辑ID |
+| data.albums\[\].parentId | string | 父专辑ID（暂不支持，全部为空） |
 | data.albums\[\].name | string | 歌单名称 |
 | data.albums\[\].templateId | string | 原始歌单ID，如果没有则为空字符串 |
 | data.albums\[\].type | string | 类型： 固定为album |

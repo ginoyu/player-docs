@@ -27,7 +27,7 @@
 | token | string | 必填 | 权限校验TOKEN |
 | clientId | string | 必填 | 歌单关联的客户端ID（用户ID或者设备ID） |
 | userId | string | 选填 | 标识是哪个用户创建 |
-| parentId | string | 是 | 父歌单ID，当不填或者为空时，表示没有父歌单ID（暂不支持） |
+| parentId | string | 是 | 父歌单ID（暂不支持，不填）：当不填或者为空时，表示没有父歌单ID |
 | name | string | 必填 | 歌单名称 |
 
 返回内容
