@@ -4,7 +4,7 @@
 
 方法： POST
 
-示例： [http://player.roobo.net/favorites/add-resource](http://player.roobo.net/favorites/add-resource)
+示例： [https://api.ros.ai/player/favorites/add-resource](https://api.ros.ai/player/favorites/add-resource)
 
 请求参数
 

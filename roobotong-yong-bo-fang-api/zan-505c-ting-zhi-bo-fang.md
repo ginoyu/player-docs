@@ -4,7 +4,7 @@
 
 方法： POST
 
-示例： [http://player.roobo.net/device/pause](http://player.roobo.net/device/pause)
+示例： [https://api.ros.ai/player/device/pause](https://api.ros.ai/player/device/pause)
 
 请求参数
 

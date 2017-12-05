@@ -4,7 +4,7 @@
 
 方法：POST
 
-示例：[http://player.roobo.net/cms/modules](http://player.roobo.net/cms/modules)
+示例：[https://api.ros.ai/player/cms/modules](https://api.ros.ai/player/cms/modules)
 
 请求参数
 

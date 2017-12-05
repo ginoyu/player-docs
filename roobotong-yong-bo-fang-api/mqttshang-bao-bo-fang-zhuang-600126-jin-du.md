@@ -101,7 +101,7 @@ SDK说明文档：[ROOBO-MQTT-v1.3.0.pdf](/ROOBO-MQTT-v1.3.0.pdf)
 
 ```
 {
-"cmd" : "forward"
+    "cmd" : "forward"
 }
 ```
 
@@ -111,7 +111,7 @@ SDK说明文档：[ROOBO-MQTT-v1.3.0.pdf](/ROOBO-MQTT-v1.3.0.pdf)
 
 ```
 {
-"cmd" : "backward"
+    "cmd" : "backward"
 }
 ```
 

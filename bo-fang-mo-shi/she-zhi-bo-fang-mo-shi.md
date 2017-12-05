@@ -4,7 +4,7 @@
 
 方法：POST
 
-示例：[http://player.roobo.net/playmode/set](http://player.roobo.net/playmode/set)
+示例：[https://api.ros.ai/player/playmode/set](https://api.ros.ai/player/playmode/set)
 
 请求参数
 

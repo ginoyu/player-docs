@@ -6,7 +6,7 @@
 
 方法：POST
 
-示例： [http://player.roobo.net/playrecord/list](http://player.roobo.net/playrecord/list)
+示例： [https://api.ros.ai/player/playrecord/list](https://api.ros.ai/player/playrecord/list)
 
 请求参数
 

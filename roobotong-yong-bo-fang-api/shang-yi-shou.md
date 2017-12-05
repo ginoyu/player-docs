@@ -6,7 +6,7 @@
 
 方法： POST
 
-示例： [http://player.roobo.net/device/prev](http://player.roobo.net/device/prev)
+示例： [https://api.ros.ai/player/device/prev](https://api.ros.ai/player/device/prev)
 
 请求参数
 

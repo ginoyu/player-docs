@@ -4,7 +4,7 @@
 
 方法： POST
 
-示例： [http://player.roobo.net/favorites/del](http://player.roobo.net/favorites/del)
+示例： [https://api.ros.ai/player/favorites/del](https://api.ros.ai/player/favorites/del)
 
 请求参数
 

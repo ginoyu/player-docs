@@ -4,7 +4,7 @@
 
 方法： POST
 
-示例： [http://player.roobo.net/device/resume](http://player.roobo.net/device/resume)
+示例： [https://api.ros.ai/player/device/resume](https://api.ros.ai/player/device/resume)
 
 请求参数
 

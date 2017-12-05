@@ -4,7 +4,7 @@
 
 方法：POST
 
-示例： [http://player.roobo.net/playrecord/del](http://player.roobo.net/playrecord/del)
+示例： [https://api.ros.ai/player/playrecord/del](https://api.ros.ai/player/playrecord/del)
 
 请求参数
 
@@ -25,8 +25,6 @@
 | clientId | string | 设备ID |
 | token | string | 请求TOKEN |
 | ids\[\] | string | 历史记录ID |
-
-
 
 返回值
 

@@ -6,7 +6,7 @@
 
 方法：POST
 
-示例： [http://player.roobo.net/cms/categories](http://player.roobo.net/cms/categories)
+示例： [https://api.ros.ai/player/cms/categories](https://api.ros.ai/player/cms/categories)
 
 请求参数
 

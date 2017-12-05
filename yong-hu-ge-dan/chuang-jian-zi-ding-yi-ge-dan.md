@@ -4,7 +4,7 @@
 
 方法： POST
 
-示例：
+示例：[https://api.ros.ai/player/user-album/new](https://api.ros.ai/player/user-album/new)
 
 请求参数
 

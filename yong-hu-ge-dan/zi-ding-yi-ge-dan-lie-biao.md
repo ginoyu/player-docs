@@ -4,7 +4,7 @@
 
 方法： POST
 
-示例： [http://player.roobo.net/user-album/list](http://player.roobo.net/user-album/list)
+示例： [https://api.ros.ai/player/user-album/list](https://api.ros.ai/player/user-album/list)
 
 请求参数
 

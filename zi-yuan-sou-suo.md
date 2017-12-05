@@ -6,7 +6,7 @@
 
 方法： POST
 
-示例： [http://player.roobo.net/search](http://player.roobo.net/search)
+示例： [https://api.ros.ai/player/search](https://api.ros.ai/player/search)
 
 请求参数：
 
@@ -17,6 +17,7 @@
   "clientId" : "1011000000201457",
   "userId" : "ps:5724e37aa1bfd42510b52256ec620b17",
   "ranges" : ["resource", "album"],
+  "page" : 1,
   "count" : 20,
   "keywords" : ["刘德华"]
 }
@@ -32,6 +33,7 @@
 | userId | string | 可选 | 执行搜索操作的用户ID |
 | keywords\[\] | string | 必选 | 搜索关键词 |
 | ranges\[\] | string | 可选 | 搜索范围，搜索资源还是专辑；默认不填代表只搜索资源 |
+| page | int | 可选 | 当前分页，默认是1 |
 | count | int | 可选 | 结果数量，默认是20， 不能超过100 |
 
 返回内容
@@ -64,6 +66,11 @@
                 }
             }
         ],
+        "resourcesPager": {
+            "page": 1,
+            "pageSize": 20,
+            "total": 1
+        },
         "albums":[
             {
                 "albumId":"9484",
@@ -78,10 +85,27 @@
                     "new"
                 ]
             }
-        ]
+        ],
+        "albumsPager": {
+            "page": 1,
+            "pageSize": 20,
+            "total": 1
+        }
     }
 }
 ```
 
-其中返回值参考资源详情，专辑信息接口
+其中返回值，[资源列表](/cms/zi-yuan-lie-biao.md)接口
+
+| 返回值 | 类型 | 意义 |
+| :--- | :--- | :--- |
+| data.resources | array | [资源详情](/cms/mo-kuai-lie-biao.md) |
+| data.resourcesPager.page | int | 资源分页当前页数（从1开始） |
+| data.resourcesPager.pageSize | int | 资源分页每页大小 |
+| data.resourcesPager.total | int | 匹配资源总数量 |
+| data.albumsPager.page | int | 歌单分页当前页数（从1开始） |
+| data.albumsPager.pageSize | int | 歌单分页每页数量 |
+| data.albumsPager.total | int | 匹配歌单总数量 |
+
+
 

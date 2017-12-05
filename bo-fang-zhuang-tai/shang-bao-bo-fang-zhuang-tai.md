@@ -12,7 +12,7 @@ HTTP接口
 
 方法： POST
 
-示例： [http://player.roobo.net/status/report](http://player.roobo.net/status/report)
+示例： [https://api.ros.ai/player/status/report](https://api.ros.ai/player/status/report)
 
 请求参数
 

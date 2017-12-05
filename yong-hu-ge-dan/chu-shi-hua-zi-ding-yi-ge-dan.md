@@ -6,7 +6,7 @@
 
 方法： POST
 
-示例： [http://player.roobo.net/user-album/init](http://player.roobo.net/user-album/init)
+示例： [https://api.ros.ai/player/user-album/init](https://api.ros.ai/player/user-album/init)
 
 请求参数
 
