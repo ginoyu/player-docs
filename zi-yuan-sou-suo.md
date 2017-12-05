@@ -95,11 +95,12 @@
 }
 ```
 
-其中返回值，[资源列表](/cms/zi-yuan-lie-biao.md)接口
+其中返回值
 
 | 返回值 | 类型 | 意义 |
 | :--- | :--- | :--- |
 | data.resources | array | [资源详情](/cms/mo-kuai-lie-biao.md) |
+| data.albums | array | 参考：[歌单列表](/cms/ge-dan-lie-biao.md) |
 | data.resourcesPager.page | int | 资源分页当前页数（从1开始） |
 | data.resourcesPager.pageSize | int | 资源分页每页大小 |
 | data.resourcesPager.total | int | 匹配资源总数量 |
