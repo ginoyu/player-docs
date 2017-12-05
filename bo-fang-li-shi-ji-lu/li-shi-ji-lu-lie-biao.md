@@ -28,7 +28,7 @@
 | :--- | :--- | :--- | :--- |
 | appId | string | 必填 | 应用ID |
 | token | string | 必填 | 设备TOKEN或者appId token |
-| clientId | string | 必填 | 播放主体ID：比如故事机或者布丁的SN |
+| clientId | string | 必填 | 播放设备ID |
 | userId | string | 可选 | 触发播放的客户端ID，用户点播就是用户ID，语音和设备交互就是设备ID |
 | from | string | 必填 | 开始ID |
 | size | int | 必填 | 返回结果数 |
