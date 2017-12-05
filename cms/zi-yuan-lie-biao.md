@@ -15,6 +15,7 @@
     "appId":"QaNCagiMWCdGbGSj",
     "token" : "786203ce01256d1d590e2d0a1c1f11b62076",
     "clientId" : "10110000002003C7",
+    "userId" : "ps:5724e37aa1bfd42510b52256ec620b17",
     "albumId" : "100",
     "queryAlbumInfo" : true,
     "page" : 1,
@@ -35,6 +36,7 @@
 | count | int | 可选 | 每页大小，默认是20， 最大100 |
 | queryAlbumInfo | bool | 可选 | 是否返回当前歌单详情 |
 | bind | string | 可选 | 收藏关联到设备上还是用户上； device-clientId有效，user-userId有效（默认值） |
+| userId | string | 可选 | 当前查询的用户ID，用于检查收藏；当bind为user时有效 |
 
 返回值
 

@@ -14,6 +14,7 @@
     "clientId":"10110000002003C7",
     "token" : "786203ce01256d1d590e2d0a1c1f11b62076",
     "userId" : "ps:5724e37aa1bfd42510b52256ec620b17",
+    "bind" : "user",
     "skipStop" : true
 }
 ```
@@ -26,6 +27,7 @@
 | clientId | string | 必填 | 设备ID |
 | token | string | 必填 | 设备TOKEN或者应用token |
 | userId | string | 可选 | 当前查询的用户ID，用于检查收藏 |
+| bind | string | 可选 | 收藏关联到设备上还是用户上； device-clientId有效，user-userId有效（默认值） |
 | skipStop | string | 可选 | 是否过滤状态为stop的记录；如果当前播放状态为stop，且skipStop为true，返回数据为空；否则返回stop状态数据 |
 
 返回示例:

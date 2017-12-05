@@ -15,7 +15,9 @@
     "clientId":"3000020000000020",
     "resId":"aires:485965",
     "albumId" : "100",
-    "bind" : "device"
+    "userId" : "ps:5724e37aa1bfd42510b52256ec620b17",
+    "bind" : "device",
+    "needFav" : true
 }
 ```
 
@@ -29,6 +31,8 @@
 | resId | string | 必填 | 需要查询的资源ID |
 | albumId | string | 可选 | 该资源关联的歌单ID，用于同时查询该歌单信息如果不指定，返回与该资源关联的第一个歌单 |
 | bind | string | 可选 | 收藏关联到设备上还是用户上； device-clientId有效，user-userId有效（默认值） |
+| userId | string | 可选 | 当前查询的用户ID，用于检查收藏；当bind为user时有效 |
+| needFav | bool | 可选 | 是否需要查询收藏信息，默认为true |
 
 返回示例
 
