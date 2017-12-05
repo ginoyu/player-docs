@@ -24,7 +24,7 @@
 | :--- | :--- | :--- | :--- |
 | appId | string | 必填 | 应用ID |
 | clientId | string | 必填 | 设备ID |
-| token | string | 必填 | 设备TOKEN或者appId token |
+| token | string | 必填 | 设备TOKEN或者应用token |
 | userId | string | 可选 | 当前查询的用户ID，用于检查收藏 |
 | skipStop | string | 可选 | 是否过滤状态为stop的记录；如果当前播放状态为stop，且skipStop为true，返回数据为空；否则返回stop状态数据 |
 
