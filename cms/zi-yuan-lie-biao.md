@@ -34,7 +34,7 @@
 | albumId | string | 必填 | 歌单ID |
 | page | int | 可选 | 分页页数，默认是1 |
 | count | int | 可选 | 每页大小，默认是20， 最大100 |
-| queryAlbumInfo | bool | 可选 | 是否返回当前歌单详情 |
+| queryAlbumInfo | bool | 可选 | 是否返回当前歌单详情（默认值是true） |
 | bind | string | 可选 | 收藏关联到设备上还是用户上； device-clientId有效，user-userId有效（默认值） |
 | userId | string | 可选 | 当前查询的用户ID，用于检查收藏；当bind为user时有效 |
 
