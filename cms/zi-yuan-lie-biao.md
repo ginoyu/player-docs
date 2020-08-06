@@ -6,7 +6,7 @@
 
 方法： POST
 
-示例：  [https://api.ros.ai/player/resources/list](https://api.ros.ai/player/resources/list)
+示例：  https://{server}/player/resources/list
 
 请求参数
 
